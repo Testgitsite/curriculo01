@@ -12,6 +12,7 @@ header#cabecalho img#icone{						/*posicionamento das imagem do menu*/
 	position: relative;
 	left: 80%;
 	top: -70px;
+
 }
 header#cabecalho{
 	border-bottom:1px #606060 solid ;
@@ -69,6 +70,7 @@ figure.foto-legenda figcaption{
 	padding: 10px;
 	box-sizing: border-box;/*faz com que o padding não ultrapasse o container */
 	transition: 1s;/*volta a opacidade com tempo de 1 segundo*/
+
 }	
 figure.foto-legenda:hover figcaption{
 
@@ -82,11 +84,13 @@ nav#menu ul{
 
 	list-style: none;/*retira os marcadores das listas*/
 	text-transform: uppercase;/*colaca as letras em maiusculas*/
-	position:fixed;
+	position:absolute;
 	top: -20px;
 	width:85%;
 	float:right;
+	padding: 0;
 	
+
 }
 nav#menu li{
 	display: inline-block;/*coloca a lista em linha*/
@@ -95,6 +99,7 @@ nav#menu li{
 	margin: 2px;
 	transition:background-color 1s ;
 	float: right;
+
 }
 nav#menu li:hover{/*animação no menu*/
 	background-color: #606060;
